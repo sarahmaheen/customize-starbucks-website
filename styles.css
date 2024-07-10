@@ -39,11 +39,15 @@ nav ul {
   flex: 1;
   text-align: right;
 }
+
+
 nav ul li {
   list-style: none;
   display: inline-block;
   margin: 10px 10px;
 }
+
+
 nav ul li a {
   text-decoration: none;
   color: var(--secondary-color);
@@ -54,17 +58,23 @@ nav ul li a:hover {
   color: var(--primary-color);
 }
 #icon {
+  /* width: 30px;
+  cursor: progress;
+  margin-bottom: 13px;
+  margin-left: 20px; */
   width: 30px;
   cursor: pointer;
   margin-bottom: 8px;
   margin-left: 20px;
 }
 .info {
+  /* margin-left: 20%; */
   margin-left: 10%;
   margin-top: 10%;
 }
 .info h1 {
   font-size: 50px;
+  /* background-color: var(--secondary-color); */
   color: var(--secondary-color);
   margin-bottom: 10px;
 }
